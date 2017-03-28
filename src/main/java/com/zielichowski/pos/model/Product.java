@@ -19,6 +19,6 @@ public class Product implements Printable {
     private String barcode;
 
     public String print() {
-        return this.name + " /t" + this.price;
+        return this.name + " \t" + this.price;
     }
 }
